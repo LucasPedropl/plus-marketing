@@ -31,7 +31,7 @@ export function WhatsAppSection() {
               {DELIVERY_STAGES.map((stage) => (
                 <div
                   key={stage.stepLabel}
-                  className="group rounded-xl border border-line bg-ink-raised/60 p-4 transition-all hover:border-brand/40 hover:bg-ink-raised"
+                  className="group rounded-xl border border-line bg-ink-raised/60 p-4 transition-[background-color,border-color] hover:border-brand/40 hover:bg-ink-raised"
                 >
                   <div className="flex items-center justify-between gap-3">
                     <span className="font-mono text-xs uppercase tracking-wider text-brand-light">

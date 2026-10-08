@@ -1,93 +1,36 @@
-import type { LucideIcon } from 'lucide-react'
-import {
-  Baby,
-  Film,
-  Flame,
-  Music,
-  Newspaper,
-  Trophy,
-} from 'lucide-react'
-
-export interface ChannelCategory {
-  id: string
+export interface FeaturedChannel {
   name: string
-  icon: LucideIcon
-  badge: string
-  description: string
-  sampleChannels: string[]
+  category: string
+  logoSrc: string
 }
 
-export const CHANNEL_CATEGORIES: ChannelCategory[] = [
-  {
-    id: 'esportes',
-    name: 'Esportes & Futebol',
-    icon: Trophy,
-    badge: 'Alta procura',
-    description: 'Jogos, campeonatos regionais e nacionais para reunir torcidas no seu salão.',
-    sampleChannels: ['Jogos do Brasileirão', 'Copa do Brasil', 'Libertadores', 'Lutas & Automobilismo'],
-  },
-  {
-    id: 'noticias',
-    name: 'Notícias & Jornalismo',
-    icon: Newspaper,
-    badge: 'Ao vivo 24h',
-    description: 'Acompanhe as principais manchetes e cotações em tempo real enquanto os clientes almoçam.',
-    sampleChannels: ['Jornais ao Vivo', 'Canais de Notícias 24h', 'Previsão do Tempo & Trânsito'],
-  },
-  {
-    id: 'cozinha',
-    name: 'Culinária & Churrasco',
-    icon: Flame,
-    badge: 'Apetite appeal',
-    description: 'Programas de receitas, churrasco e gastronomia que estimulam pedidos na hora.',
-    sampleChannels: ['Mestres do Churrasco', 'Cozinha Criativa', 'Receitas de Família', 'Doces & Sobremesas'],
-  },
-  {
-    id: 'musica',
-    name: 'Música & Videoclipes',
-    icon: Music,
-    badge: 'Ambiente',
-    description: 'Clipes em alta e playlists acústicas para criar o clima perfeito no seu comércio.',
-    sampleChannels: ['Sertanejo & Barzinho', 'Pop & Hits Nacionais', 'Rock Clássico', 'MPB Acústico'],
-  },
-  {
-    id: 'desenhos',
-    name: 'Desenhos & Infantil',
-    icon: Baby,
-    badge: 'Espaço família',
-    description: 'Animações e conteúdos educativos para entreter os pequenos enquanto os pais consomem.',
-    sampleChannels: ['Turma da Animação', 'Aventuras Infantis', 'Historinhas & Músicas'],
-  },
-  {
-    id: 'variedades',
-    name: 'Variedades & Natureza',
-    icon: Film,
-    badge: 'Relaxante',
-    description: 'Documentários, viagens e paisagens relaxantes para clínicas, cafés e recepções.',
-    sampleChannels: ['Natureza em 4K', 'Viagens pelo Mundo', 'Curiosidades & Ciência'],
-  },
+export const FEATURED_CHANNELS: FeaturedChannel[] = [
+  { name: 'ESPN', category: 'Esportes', logoSrc: '/channels/espn.jpg' },
+  { name: 'Combate', category: 'Esportes', logoSrc: '/channels/combate.jpg' },
+  { name: 'CNN Brasil', category: 'Notícias', logoSrc: '/channels/cnn-brasil.jpg' },
+  { name: 'GloboNews', category: 'Notícias', logoSrc: '/channels/globo-news.jpg' },
+  { name: 'Cartoon Network', category: 'Infantil', logoSrc: '/channels/cartoon-network.jpg' },
+  { name: 'GNT', category: 'Variedades', logoSrc: '/channels/gnt.jpg' },
+  { name: 'Record TV', category: 'TV aberta', logoSrc: '/channels/record-tv.jpg' },
+  { name: 'Animal Planet', category: 'Documentários', logoSrc: '/channels/animal-planet.jpg' },
 ]
 
-export interface YoutubeFeature {
+export interface ChannelExperience {
   title: string
   description: string
 }
 
-export const YOUTUBE_FEATURES: YoutubeFeature[] = [
+export const CHANNEL_EXPERIENCES: ChannelExperience[] = [
   {
-    title: 'Até 5 links ou playlists em loop',
-    description: 'Cole o link de qualquer vídeo ou playlist do YouTube e a TV toca automaticamente sem você precisar apertar nada.',
+    title: 'Canal ao vivo',
+    description: 'Escolha o conteúdo ideal para cada horário e controle tudo pelo navegador.',
   },
   {
-    title: 'Vídeos da sua própria empresa',
-    description: 'Coloque o vídeo institucional da sua loja, o processo de fabricação do chopp ou o making of do seu burger.',
+    title: 'Canal + ofertas',
+    description: 'Mantenha a programação em destaque e reserve uma faixa para produtos da loja.',
   },
   {
-    title: 'Pausa inteligente para propaganda',
-    description: 'O sistema pode pausar o vídeo do YouTube no momento exato em que a propaganda ou combo da loja entrar na tela.',
-  },
-  {
-    title: 'Música ambiente sem comerciais chatos',
-    description: 'Use streams de música lo-fi, acústico ou sertanejo para dar personalidade ao salão.',
+    title: 'YouTube em loop',
+    description: 'Monte uma sequência com vídeos, playlists e materiais da sua própria marca.',
   },
 ]

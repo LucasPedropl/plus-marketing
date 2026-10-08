@@ -32,7 +32,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     title: 'O jogo na tela. Seus produtos do lado.',
     description:
       'Passe um canal ao vivo e mantenha um painel com ofertas sempre visível. O cliente assiste e pede mais uma rodada.',
-    primaryAction: { label: 'Falar com vendas', href: SALES_CONTACT_URL },
+    primaryAction: { label: 'Conhecer o Bix Plus', href: SALES_CONTACT_URL },
     secondaryAction: { label: 'Ver planos', href: `#${SECTION_IDS.plans}` },
     visual: 'channel-panel',
   },

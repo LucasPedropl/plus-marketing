@@ -29,12 +29,11 @@ export interface NavigationItem {
 
 export const HEADER_NAVIGATION_ITEMS: NavigationItem[] = [
   { label: 'Planos', href: `#${SECTION_IDS.plans}` },
-  { label: 'Canais & YouTube', href: `#${SECTION_IDS.channels}` },
+  { label: 'Canais', href: `#${SECTION_IDS.channels}` },
   { label: 'TV Studio', href: `#${SECTION_IDS.tvStudio}` },
   { label: 'WhatsApp', href: `#${SECTION_IDS.whatsapp}` },
-  { label: 'Catálogo', href: `#${SECTION_IDS.catalog}` },
   { label: 'Recursos', href: `#${SECTION_IDS.features}` },
-  { label: 'Ajuda', href: `#${SECTION_IDS.help}` },
+  { label: 'Dúvidas', href: `#${SECTION_IDS.help}` },
 ]
 
 export interface FooterLinkGroup {

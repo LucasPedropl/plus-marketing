@@ -61,7 +61,7 @@ export function SiteHeader() {
             Entrar
           </ButtonLink>
           <ButtonLink href={SALES_CONTACT_URL} className="hidden sm:inline-flex">
-            Falar com vendas
+            Contato
           </ButtonLink>
           <button
             type="button"
@@ -93,7 +93,7 @@ export function SiteHeader() {
           </ul>
           <div className="mt-4 grid gap-2 sm:hidden">
             <ButtonLink href={SALES_CONTACT_URL} size="lg">
-              Falar com vendas
+              Contato
             </ButtonLink>
             <ButtonLink href={APP_LOGIN_URL} variant="outline" size="lg">
               Entrar

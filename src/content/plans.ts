@@ -12,7 +12,6 @@ export interface SingleSubscriptionPlan {
   periodLabel: string
   highlights: string[]
   featureCategories: FeatureCategory[]
-  includedModules: string[]
   guarantees: string[]
 }
 
@@ -23,14 +22,6 @@ export const SINGLE_PLAN: SingleSubscriptionPlan = {
   tagline: 'Todos os módulos do sistema liberados para seu negócio vender mais e encantar clientes.',
   monthlyPrice: 'R$ 79,90',
   periodLabel: '/ mês',
-  includedModules: [
-    'WhatsApp Automático',
-    'TV Studio (até 5 telas)',
-    'Canais ao Vivo',
-    'Vídeos YouTube',
-    'Catálogo PDV',
-    'Metrics Studio',
-  ],
   highlights: [
     'Até 5 telas simultâneas conectadas na sua loja',
     'WhatsApp oficial do seu comércio integrado via QR Code',

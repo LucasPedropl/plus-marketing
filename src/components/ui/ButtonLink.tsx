@@ -44,7 +44,7 @@ export function ButtonLink({
     <a
       href={href}
       className={cn(
-        'inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-colors duration-200',
+        'inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-[transform,background-color,border-color,color] duration-200 hover:-translate-y-0.5 active:translate-y-0 motion-reduce:transform-none',
         VARIANT_CLASS_NAMES[variant],
         SIZE_CLASS_NAMES[size],
         className,

@@ -24,7 +24,7 @@ export function FeaturesGridSection() {
             return (
               <article
                 key={feature.title}
-                className="group relative rounded-2xl border border-line bg-ink-raised/50 p-6 transition-all duration-300 hover:border-brand/40 hover:bg-ink-raised hover:shadow-[0_12px_30px_-10px_hsl(var(--brand)/0.15)]"
+                className="group relative rounded-2xl border border-line bg-ink-raised/50 p-6 transition-[background-color,border-color,box-shadow] duration-300 hover:border-brand/40 hover:bg-ink-raised hover:shadow-[0_12px_30px_-10px_hsl(var(--brand)/0.15)]"
               >
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-ink-sunken border border-line text-brand transition-colors group-hover:bg-brand group-hover:text-ink">
                   <Icon className="h-6 w-6 transition-transform group-hover:scale-110" />

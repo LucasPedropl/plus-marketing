@@ -42,7 +42,7 @@ export function HeroCarousel() {
             className="animate-screen-in"
           >
             <p className="eyebrow">{activeSlide.tagline}</p>
-            <h2 className="font-wide mt-4 text-balance text-[2.15rem] font-black uppercase leading-[0.98] tracking-tight text-cream sm:text-5xl xl:text-[3.6rem]">
+            <h2 className="font-wide mt-4 text-balance text-[2.15rem] font-black leading-[0.98] tracking-[-0.04em] text-cream sm:text-5xl xl:text-[3.6rem]">
               {activeSlide.title}
             </h2>
             <p className="mt-5 max-w-xl text-pretty text-base text-cream-dim sm:text-lg">

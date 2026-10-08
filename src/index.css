@@ -29,6 +29,13 @@
     line-height: 1.6;
   }
 
+  a,
+  button,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: hsl(var(--brand) / 0.18);
+  }
+
   ::selection {
     background: hsl(var(--brand) / 0.35);
   }
