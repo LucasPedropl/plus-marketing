@@ -16,15 +16,16 @@ Inspirado na arquitetura visual e organização de seções do [SKY+](https://ww
 1. **Header Translúcido** (`SiteHeader`): navegação fixa com blur dinâmico ao rolar a página, botão "Entrar" e CTA de "Contato".
 2. **Hero Carrossel** (`HeroCarousel`): 3 slides rotativos com barras de progresso temporizadas, pause/play acessível e mockups ao vivo (Cardápio na TV, Canal + Painel, Notificações no WhatsApp).
 3. **Plano** (`PlansSection`): proposta compacta do Bix Plus Completo com benefícios essenciais e lista detalhada sob demanda.
-4. **Canais** (`ChannelsSection`): vitrine de canais, conteúdo ao vivo, modo Canal + ofertas e playlists do YouTube.
-5. **TV Studio** (`TvStudioSection`): abas verticais para os 5 modos homologados da TV (Layout de produtos, Canal + Painel, Canal, Propaganda, Pedidos).
-6. **WhatsApp Delivery** (`WhatsAppSection`): timeline e mensagens automáticas a cada etapa do pedido (em preparo, pronto, a caminho, entregue).
-7. **Catálogo & PDV** (`CatalogSection`): espelho automático de produtos sem redigitação.
-8. **Recursos** (`FeaturesGridSection`): grade com os recursos técnicos do sistema.
-9. **Dispositivos** (`DevicesSection`): compatibilidade com navegadores de Smart TVs e fluxo de conexão via PIN em 3 passos.
-10. **FAQ** (`FaqSection`): perguntas frequentes com accordion acessível.
-11. **Banner CTA** (`CtaBannerSection`): chamada para demonstração comercial e acesso ao painel.
-12. **Footer** (`SiteFooter`): links rápidos, canais e direitos autorais.
+4. **Canais** (`ChannelsSection`): vitrine de canais, conteúdo ao vivo e modo Canal + ofertas.
+5. **YouTube + Propaganda** (`YoutubeProgrammingSection`): programação com vídeos ou canais do YouTube, intervalos comerciais e prévia da sequência.
+6. **TV Studio** (`TvStudioSection`): abas verticais para os 6 modos homologados da TV (Layout de produtos, Canal + Painel, Canal, YouTube, Propaganda, Pedidos).
+7. **WhatsApp Delivery** (`WhatsAppSection`): timeline e mensagens automáticas a cada etapa do pedido (em preparo, pronto, a caminho, entregue).
+8. **Catálogo & PDV** (`CatalogSection`): espelho automático de produtos sem redigitação.
+9. **Recursos** (`FeaturesGridSection`): grade com os recursos técnicos do sistema.
+10. **Dispositivos** (`DevicesSection`): compatibilidade com navegadores de Smart TVs e fluxo de conexão via PIN em 3 passos.
+11. **FAQ** (`FaqSection`): perguntas frequentes com accordion acessível.
+12. **Banner CTA** (`CtaBannerSection`): chamada para demonstração comercial e acesso ao painel.
+13. **Footer** (`SiteFooter`): links rápidos, canais e direitos autorais.
 
 ## Desenvolvimento Local
 

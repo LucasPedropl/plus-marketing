@@ -10,6 +10,7 @@ import { HeroCarousel } from '@/components/sections/hero/HeroCarousel'
 import { PlansSection } from '@/components/sections/plans/PlansSection'
 import { TvStudioSection } from '@/components/sections/TvStudioSection'
 import { WhatsAppSection } from '@/components/sections/WhatsAppSection'
+import { YoutubeProgrammingSection } from '@/components/sections/YoutubeProgrammingSection'
 import { FloatingWhatsAppButton } from '@/components/ui/FloatingWhatsAppButton'
 
 export function App() {
@@ -26,6 +27,7 @@ export function App() {
         <HeroCarousel />
         <PlansSection />
         <ChannelsSection />
+        <YoutubeProgrammingSection />
         <TvStudioSection />
         <WhatsAppSection />
         <CatalogSection />

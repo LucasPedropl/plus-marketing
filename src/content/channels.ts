@@ -30,7 +30,7 @@ export const CHANNEL_EXPERIENCES: ChannelExperience[] = [
     description: 'Mantenha a programação em destaque e reserve uma faixa para produtos da loja.',
   },
   {
-    title: 'YouTube em loop',
-    description: 'Monte uma sequência com vídeos, playlists e materiais da sua própria marca.',
+    title: 'Programação por ambiente',
+    description: 'Escolha esportes, notícias ou entretenimento para cada espaço e momento do dia.',
   },
 ]

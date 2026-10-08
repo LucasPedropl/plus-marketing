@@ -25,7 +25,7 @@ export function ChannelsSection() {
               eyebrow="Programação para o seu ambiente"
               titleId="channels-title"
               title="Da partida ao desenho: você escolhe o clima"
-              description="Exiba canais ao vivo, vídeos do YouTube ou combine conteúdo e ofertas da sua loja na mesma tela."
+              description="Exiba canais ao vivo ou combine conteúdo e ofertas da sua loja na mesma tela."
             />
 
             <div className="mt-8 divide-y divide-line border-y border-line">

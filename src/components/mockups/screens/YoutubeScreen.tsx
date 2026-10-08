@@ -29,7 +29,7 @@ export function YoutubeScreen() {
             Making Of: Nossos Hambúrgueres Artesanais
           </h4>
           <p className="mt-[0.2em] font-mono text-[0.8em] text-cream-dim">
-            Vídeo Oficial da Loja · Reprodução Contínua em 4K
+            Vídeo oficial da loja · Reprodução contínua
           </p>
         </div>
       </div>

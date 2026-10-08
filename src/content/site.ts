@@ -14,6 +14,7 @@ export const SALES_CONTACT_URL = `https://wa.me/${SALES_WHATSAPP_RAW}?text=${enc
 export const SECTION_IDS = {
   plans: 'planos',
   channels: 'canais-youtube',
+  youtube: 'youtube-propaganda',
   tvStudio: 'tv',
   whatsapp: 'whatsapp',
   catalog: 'catalogo',
@@ -30,9 +31,9 @@ export interface NavigationItem {
 export const HEADER_NAVIGATION_ITEMS: NavigationItem[] = [
   { label: 'Planos', href: `#${SECTION_IDS.plans}` },
   { label: 'Canais', href: `#${SECTION_IDS.channels}` },
+  { label: 'YouTube', href: `#${SECTION_IDS.youtube}` },
   { label: 'TV Studio', href: `#${SECTION_IDS.tvStudio}` },
   { label: 'WhatsApp', href: `#${SECTION_IDS.whatsapp}` },
-  { label: 'Recursos', href: `#${SECTION_IDS.features}` },
   { label: 'Dúvidas', href: `#${SECTION_IDS.help}` },
 ]
 
@@ -46,7 +47,8 @@ export const FOOTER_LINK_GROUPS: FooterLinkGroup[] = [
     title: 'Explorar',
     links: [
       { label: 'Plano Bix Plus', href: `#${SECTION_IDS.plans}` },
-      { label: 'Canais & YouTube', href: `#${SECTION_IDS.channels}` },
+      { label: 'Canais ao vivo', href: `#${SECTION_IDS.channels}` },
+      { label: 'YouTube & anúncios', href: `#${SECTION_IDS.youtube}` },
       { label: 'TV Studio', href: `#${SECTION_IDS.tvStudio}` },
       { label: 'WhatsApp Delivery', href: `#${SECTION_IDS.whatsapp}` },
       { label: 'Catálogo do PDV', href: `#${SECTION_IDS.catalog}` },
