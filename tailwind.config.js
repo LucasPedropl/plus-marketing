@@ -22,7 +22,7 @@ export default {
         signal: 'hsl(var(--signal))',
       },
       fontFamily: {
-        display: ['Archivo', 'system-ui', 'sans-serif'],
+        display: ['Onest', 'system-ui', 'sans-serif'],
         sans: ['Onest', 'system-ui', 'sans-serif'],
         mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
       },

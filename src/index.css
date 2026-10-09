@@ -62,15 +62,13 @@
 
 @layer components {
   .font-wide {
-    font-family: Archivo, system-ui, sans-serif;
-    font-stretch: 125%;
-    font-variation-settings: 'wdth' 125;
+    font-family: inherit;
+    letter-spacing: -0.02em;
   }
 
   .font-condensed {
-    font-family: Archivo, system-ui, sans-serif;
-    font-stretch: 75%;
-    font-variation-settings: 'wdth' 75;
+    font-family: inherit;
+    letter-spacing: 0.05em;
   }
 
   .eyebrow {
